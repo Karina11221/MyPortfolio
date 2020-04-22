@@ -1,0 +1,267 @@
+@media (max-width: 1450px) {
+		.top {
+		    background-size: 113%;
+		}
+}
+
+@media (max-width: 1300px) {
+		.top {
+		    background-size: 122%;
+		}
+}
+@media (max-width: 1200px) {
+	.container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.top {
+	    background-size: 161%;
+	}
+	.present-bg {
+	    background-size: 193%;
+	}
+	.advantages {
+	    background-size: 172%;
+	}
+	.personalization-box {
+		margin-right: 0;
+	}
+	.form {
+	    background-size: 202%;
+	}
+	.personalization-boxs {
+		justify-content: space-around;
+	}
+	.block {
+	    background-size: 376%;
+	}
+	.block {
+	    background-size: 600%;
+	}
+	.opportunities-boxs {
+		justify-content: space-around;
+	}
+	.opportunities-box {
+		margin-bottom: 20px;
+	}
+	.geo-box {
+		position: relative;
+		left: 0;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.geo-box__time, .geo-box__soc {
+		justify-content: center;
+	}
+	.form-flex {
+		flex-direction: column;
+	}
+}
+@media (max-width: 992px) {
+	.top {
+	    background-size: 212%;
+	}
+	.present {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.present-bg {
+	    background-size: 393%;
+	}
+	.present-text::before {
+		left: 26px;
+	}
+	.present-st {
+	    flex-direction: column;
+	    align-items: center;
+	    margin-top: 30px;
+	    margin-bottom: 30px;
+	    justify-content: center;
+	}
+	.present-st__img{
+		-webkit-transform: rotate(90deg);
+		    -moz-transform: rotate(90deg);
+		    -o-transform: rotate(90deg);
+		    -ms-transform: rotate(90deg);
+		    transform: rotate(90deg);
+
+	}
+	.present-st__text {
+		margin-right: 0;
+		text-align: center;
+	}
+	.present-form___form {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.present-form__input, .present-form__button  {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.diagram-img {
+		width: 90%;
+	}
+	.form {
+	    background-size: 290%;
+	}
+	.material-boxs {
+		justify-content: space-around;
+	}
+	.material-box {
+		margin-bottom: 35px;
+	}
+
+	.none {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px;
+	}
+	.us-bg {
+		padding-bottom: 20px;
+	}
+	.present-bg {
+	    background-size: 468%;
+	}
+	.us-img {
+		display: none;
+	}
+	.us-text {
+		position: relative;
+		margin-left: 0;
+		margin-top: 0;
+		margin-bottom: 15px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (max-width: 756px) {
+	.menu-bg {
+		display: none;
+	}
+	.present-text::before {
+		/*background: no-repeat;*/
+		width: 94px;
+    height: 113px;
+    background-size: 100%;
+    left: auto;
+    margin-left: -230px;
+    top: 190px;
+	}
+	.top {
+	    background-size: 288%;
+	}
+	.present-bg {
+	    background-size: 625%;
+	}
+	.advantages-boxs {
+		flex-direction: column;
+		justify-content: center;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.advantages {
+		background: none;
+		padding-bottom: 40px;
+	}
+	.form {
+	    background-size: 375%;
+	}
+	.material-box {
+		min-width: 265px;
+	}
+	.block {
+	    background-size: 1050%;
+	}
+	.work4 {
+	    background-size: 205%;
+	}
+	.presentation-box {
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 576px) {
+	.present-text::before {
+	    
+	    margin-left: -152px;
+	    top: 169px;
+	}
+	.work4 {
+	    background-size: 343%;
+	}
+	.top {
+	    background-size: 561%;
+	}
+	.top-img {
+		width: 65%;
+	}
+	.top-subtitle {
+	   
+	    font-size: 13px;
+	    line-height: 20.86px;
+	    text-transform: uppercase;
+	    letter-spacing: 0.27px;
+	    background: url(../img/bg-text.png) center no-repeat;
+	    background-size: 293%;
+	    margin-top: -33px;
+	    padding-top: 8px;
+	    padding-bottom: 8px;
+	    margin-bottom: 19px;
+	}
+	.present-bg {
+	    background-size: 1362%;
+	}
+	.opportunities-titel {
+		font-size: 16px;
+	}
+	.basement-right {
+		font-size: 14px;
+	}
+	.top-title {
+		font-size: 13px;
+	}
+	.present-text__big {
+	    font-size: 42px;
+	}
+	.present-text__subtitle {
+	    font-size: 13px;
+	}
+	.present-text__data, .personalization-title, .block-title, .opportunities-titel {
+	    font-size: 20px;
+	}
+	.present-text {
+		padding-left: 57px;
+	}
+	.present-form__input {
+		width: 90%;
+	}
+	.block-subtitle {
+		font-size: 16px;
+	}
+	.advantages-title {
+	    font-size: 27px; 
+	}
+	.block-hr {
+		height: 1px;
+	}
+	.block {
+	    background-size: 4618%;
+	}
+	.diagram {
+		display: none;
+	}
+	.form {
+	    background-size: 704%;
+	}
+	.work-inst {
+		font-size: 14px;
+	}
+	.black-text {
+		font-size: 18px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}

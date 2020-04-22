@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<script>
+			(function(){
+    		    var width = screen.width;
+    		    var oldViewport = document.querySelector('meta[name="viewport"]');
+    		    var viewport = document.createElement('meta');
+    		    viewport.setAttribute('name', 'viewport');
+    		    viewport.setAttribute('content', 'width=' + (width <= 480 ? '480' : 'device-width'));
+    		    document.head.replaceChild(viewport, oldViewport);
+			})();
+		</script> 
+		<title>Спасибо за заявку</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="shortcut icon" href="favicon.ico"/>
+	</head>
+	<body>
+
+		<div class="wrapper">
+			
+			<header class="header" id="home">
+				<div class="container">
+					<div class="header-top">
+						<a href="index.html" class="header-top__logo"></a>
+						<div class="header-top__block header-top__block-map">
+							<b>Карта проезда</b>
+							<p>Москва, Волгоградский проспект, 8</p>
+						</div>
+						<div class="header-top__block header-top__block-time">
+							<b>Время работы</b>
+							<p>с 9.00 до 21.00</p>
+						</div>
+					</div>
+					<div class="header-content">
+						<h1>Спасибо за заявку</h1>
+						<p>Наш менеджер свяжется с вами</p>
+						<p>в ближайшее время</p>
+						<a href="index.html" class="btn-red">Вернуться на сайт</a>
+					</div>
+				</div>
+			</header>
+
+		</div>
+
+	</body>
+</html>

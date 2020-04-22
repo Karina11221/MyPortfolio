@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<script>
+			(function(){
+    		    var width = screen.width;
+    		    var oldViewport = document.querySelector('meta[name="viewport"]');
+    		    var viewport = document.createElement('meta');
+    		    viewport.setAttribute('name', 'viewport');
+    		    viewport.setAttribute('content', 'width=' + (width <= 480 ? '480' : 'device-width'));
+    		    document.head.replaceChild(viewport, oldViewport);
+			})();
+		</script> 
+		<title>Лечение зубов с гарантией</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="shortcut icon" href="img/logo.png"/>
+	</head>
+	<body>
+
+		<div class="wrapper">
+
+			<ul class="nav">
+				<li class="active"><a href="#home">01</a></li>
+				<li><a href="#price">02</a></li>
+				<li><a href="#problem">03</a></li>
+				<li><a href="#doctors">04</a></li>
+				<li><a href="#contact">05</a></li>
+			</ul>
+			
+			<header class="header" id="home">
+				<div class="container">
+					<div class="header-top">
+						<a href="index.html" class="header-top__logo"></a>
+						<div class="header-top__block header-top__block-map header-top2__block">
+							<b>Карта проезда</b>
+							<p>Москва, Волгоградский проспект, 8</p>
+						</div>
+						<div class="header-top__block header-top__block-time header-top2__block">
+							<b>Время работы</b>
+							<p>с 9.00 до 21.00</p>
+						</div>
+						<div class="whots">
+							<a target="blank" href="https://wa.me/79197698181?text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C,%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%20%D0%92%D0%B0%D0%BC%20%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8E.%0A"><img class="whot" src="img/ww.png" alt=""></a><br>
+							
+						</div>
+						<div class="header-top__contact">
+							<a href="tel:89197698181">+7 (919) 769 81 81</a><br>
+							<span data-fancybox data-src="#popup">Перезвоните мне</span>
+						</div>
+					</div>
+					<div class="header-content">
+						<div class="section-title">Главная</div>
+						<h1>Клиника доктора Орджоникидзе</h1>
+						<p>Используем методы и технологии 2020 года.</p>
+						<p>Цены не изменятся после начала лечения.</p>
+						<a href="javascript:;" data-fancybox data-src="#popup" class="btn-red">Бесплатная консультация</a>
+						<div class="header-content__numbers">
+							<div class="header-content__numbers-block">
+								<span>
+									<h4>13</h4>
+									<p>лет</p>
+								</span>
+								<b>стоматологической<br> практики</b>
+							</div>
+							<div class="header-content__numbers-block">
+								<span>
+									<h4>2</h4>
+									<p>года</p>
+								</span>
+								<b>гарантии<br> по договору</b>
+							</div>
+						</div>
+						<div class="header-content__doctor">
+							<img src="img/doctor.png" alt="">
+							<p>Главный врач,<br> челюстно-лицевой хирург<br> Орджоникидзе Михаил Зурабович</p>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<section class="price" id="price">
+				<div class="container">
+					<div class="section-title">Стоимость лечения</div>
+					<h2>Стоимость лечения</h2>
+					<div class="price-line">
+						<p>Консультация стоматолога </p>
+						<span>Бесплатно</span>
+					</div>
+					<div class="price-line">
+						<p>Удаление зуба</p>
+						<span>от 3 500 р.</span>
+					</div>
+					<div class="price-line">
+						<p>Профессиональная чистка ротовой полости</p>
+						<span>от 3 500 р.</span>
+					</div>
+					<div class="price-line">
+						<p>Имплантация зуба</p>
+						<span>от 15 000 р.</span>
+					</div>
+					<div class="price-line">
+						<p>Художественная реставрация зуба</p>
+						<span>от 6 500 р.</span>
+					</div>
+					<a href="javascript:;" data-fancybox data-src="#popup" class="btn-red price-next">ПОЛУЧИТЬ ПОЛНЫЙ ПРАЙС</a>
+				</div>
+			</section>
+
+			<section class="problem" id="problem">
+				<div class="container">
+					<div class="section-title">Какие проблемы мы решаем</div>
+					<h2>Какие проблемы мы решаем?</h2>
+					<div class="problem-line problem-line-1">
+						<div class="problem-plus">
+							<span></span>
+							<div class="problem-block problem-block-left">
+								<div class="problem-block__title">Врач не прислушивается</div>
+								<div class="problem-block__text">Мы привыкли быть деликатными и опираться на ваши пожелания.</div>
+							</div>
+						</div>
+						<div class="problem-plus">
+							<span></span>
+							<div class="problem-block problem-block-right">
+								<div class="problem-block__title">Недостаточная стерильность</div>
+								<div class="problem-block__text">Система очистки инструментов в несколько этапов гарантирует 100% стерилизацию. Половина материалов - одноразовые</div>
+							</div>
+						</div>
+					</div>
+					<div class="problem-line problem-line-2">
+						<div class="problem-plus">
+							<span></span>
+							<div class="problem-block problem-block-left">
+								<div class="problem-block__title">Дорогое лечение</div>
+								<div class="problem-block__text">Мы ориентируемся на Вас когда выбираем лечение: по методам, финансам и времени.</div>
+							</div>
+						</div>
+						<div class="problem-plus">
+							<span></span>
+							<div class="problem-block problem-block-right">
+								<div class="problem-block__title">Плавающий бюджет</div>
+								<div class="problem-block__text">Мы фиксируем стоимость лечения на консультации. Цена не изменится после начала лечения.</div>
+							</div>
+						</div>
+					</div>
+					<div class="problem-line problem-line-3">
+						<div class="problem-plus">
+							<span></span>
+							<div class="problem-block problem-block-left">
+								<div class="problem-block__title">Старое оборудование</div>
+								<div class="problem-block__text">У нас только современное оборудование. Все процедуры мы делаем не отходя от кресла пациента.</div>
+							</div>
+						</div>
+						<div class="problem-plus">
+							<span></span>
+							<div class="problem-block problem-block-right">
+								<div class="problem-block__title">Некачественные материалы</div>
+								<div class="problem-block__text">Мы используем самые последние материалы и технологии в области стоматологии, и всегда следим за трендами.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="doctors" id="doctors">
+				<div class="container">
+					<div class="section-title">Какие проблемы мы решаем</div>
+					<div class="doctors-left">
+						<h2>Наши врачи</h2>
+						<p>Наши специалисты – это врачи высшей<br> категории, профессионалы своего дела,<br> постоянно повышающие уровень своей квалификации.</p>
+						<p>Один из важнейших принципов врачей нашего медицинского центра – комплексный подход и забота о долговременном благополучии пациента</p>
+						<p>Наши стоматологи могут помочь в любой ситуации.<br> Будь то лечение банального кариеса<br> или серьезные проблемы, требующие хирургического вмешательства.</p>
+					</div>
+					<div class="doctors-right">
+						<div class="doctors-slider swiper-container">
+					    <div class="swiper-wrapper">
+					    	<div class="swiper-slide">
+				        	<div class="doctors-img" style="background-image: url(img/doctors/6.jpg);"><span>Главный врач клиники</span></div>
+				        	<b>Орджоникидзе Михаил<br> Зурабович</b>
+				        </div>
+				        <!-- <div class="swiper-slide">
+				        	<div class="doctors-img" style="background-image: url(img/doctors/5.jpg);"><span>Стоматолог</span></div>
+				        	<b>Григорян Рубен<br> Артурович</b>
+				        </div>
+				        <div class="swiper-slide">
+				        	<div class="doctors-img" style="background-image: url(img/doctors/1.jpg);"><span>Стоматолог-гигиенист</span></div>
+				        	<b>Реут Анастасия<br> Федоровна</b>
+				        </div>
+				        <div class="swiper-slide">
+				        	<div class="doctors-img" style="background-image: url(img/doctors/2.jpg);"><span>Стоматолог</span></div>
+				        	<b>Коршунова Анна<br> Владимировна</b>
+				        </div>
+				        <div class="swiper-slide">
+				        	<div class="doctors-img" style="background-image: url(img/doctors/3.jpg);"><span>Стоматолог-ортодонт</span></div>
+				        	<b>Михайлова Екатерина<br> Борисовна</b>
+				        </div>
+				        <div class="swiper-slide">
+				        	<div class="doctors-img" style="background-image: url(img/doctors/4.jpg);"><span>Стоматолог-терапевт</span></div>
+				        	<b>Телегина Елена<br> Юрьевна</b>
+				        </div> -->
+				        
+				        <div class="swiper-slide">
+				        	<div class="doctors-img" style="background-image: url(img/doctors/2020-03-14%2022.41.01.jpg);"><span>Врач стоматолог гигиенист</span></div>
+				        	<b>Матриосян Анаида<br> Эдуардовна</b>
+				        </div>
+				        <div class="swiper-slide">
+				        	<div class="doctors-img" style="background-image: url(img/doctors/9.jpg);"><span>Детский врач стоматолог&nbsp;</span></div>
+				        	<b>Жерлицына Лилиан<br> Владленовна</b>
+				        </div>
+				        <div class="swiper-slide">
+				        	<div class="doctors-img" style="background-image: url(img/doctors/10.jpg);"><span>&nbsp;Врач стоматолог гигиенист</span></div>
+				        	<b>Бухидель Наргиз Рафиковна<br></b>
+				        </div>
+				        <div class="swiper-slide">
+				        	<div class="doctors-img" style="background-image: url(img/doctors/11.jpg);"><span>Врач стоматолог терапевт-эндодонтист</span></div>
+				        	<b>Григорян Рубен<br> Артурович</b>
+				        </div>
+				        <div class="swiper-slide">
+				        	<div class="doctors-img" style="background-image: url(img/doctors/12.jpg);"><span>Стоматолог ортодонт</span></div>
+				        	<b>Михайлова Екатерина<br> Борисовна</b>
+				        </div>
+				        <div class="swiper-slide">
+				        	<div class="doctors-img" style="background-image: url(img/doctors/13.jpg);"><span>Врач стоматолог терапевт-эндодонтист</span></div>
+				        	<b>Аллер Хельмут<br> Александрович</b>
+				        </div>
+					    </div>
+						</div>
+						<div class="doctors-control">
+							<div class="doctors-prev"></div>
+							<div class="doctors-next"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="contact" id="contact">
+				<div class="container">
+					<div class="section-title">Остались вопросы?</div>
+					<h2>Остались вопросы?<br> Задайте их врачу</h2>
+					<h4>Заполните форму или позвоните нам <a href="tel:+7 (919) 769 81 81">+7 (919) 769 81 81</a>
+						<br> Так же вы можете написать на почту <a href="mailto:dr.m.z.ord@gmail.com">dr.m.z.ord@gmail.com</a>
+					</h4>
+				
+					<form action="php/send.php" method="post" class="form">
+						<div class="form-left">
+							<label for="name">
+								<span>Введите Ваше имя:</span>
+								<input type="text" id="name" name="name" class="input" placeholder="Введите имя" />
+							</label>
+							<label for="type">
+								<span>Выберите удобный способ связи:</span>
+								<div class="form-type">
+									<label for="type1" data-type="Контактный e-mail:" data-input="email" data-placeholder="ivanov@mail.ru">
+										<input type="radio" id="type1" name="type" value="E-mail" checked="" />
+										<span><img src="img/icons/email.png" alt="" />E-mail</span>
+									</label>
+									<label for="type2" data-type="Номер телефона:" data-input="text" data-placeholder="Телефон">
+										<input type="radio" id="type2" name="type" value="Viber" />
+										<span><img src="img/icons/viber.png" alt="" />Viber</span>
+									</label>
+									<label for="type3" data-type="Номер телефона:" data-input="text" data-placeholder="Телефон">
+										<input type="radio" id="type3" name="type" value="WhatsApp" />
+										<span><img src="img/icons/whatsapp.png" alt="" />WhatsApp</span>
+									</label>
+									<label for="type4" data-type="Номер телефона:" data-input="text" data-placeholder="Телефон">
+										<input type="radio" id="type4" name="type" value="Telegram" />
+										<span><img src="img/icons/telegram.png" alt="" />Telegram</span>
+									</label>
+								</div>
+							</label>
+							<label for="contact">
+								<span>Контактный e-mail:</span>
+								<input type="email" id="contact" name="contact" class="input" placeholder="ivanov@mail.ru" />
+							</label>
+						</div>
+						<div class="form-right">
+							<label for="message">
+								<span>Введите сообщение:</span>
+								<textarea name="message" id="message" class="input" placeholder="Введите сообщение"></textarea>
+							</label>
+						</div>
+						<div class="form-middle">
+							<input type="submit" class="btn-red" value="ОТПРАВИТЬ" />
+							<p>Нажимая кнопку, Вы принимаете Положение и<br> Согласие на обработку персональных данных</p>
+						</div>
+					</form>
+				</div>
+				<div id="map"></div>
+			</section>
+
+			<footer class="footer">
+				<div class="container">
+					<div class="header-top">
+						<a href="index.html" class="header-top__logo header-top2__block"></a>
+						<div class="header-top__block header-top__block-map">
+							<b>Карта проезда</b>
+							<p>Москва, Волгоградский проспект, 8</p>
+						</div>
+						<div class="header-top__block header-top__block-time">
+							<b>Время работы</b>
+							<p>с 9.00 до 21.00</p>
+						</div>
+						<div class="header-top__block footer-site">
+							<div>Упаковка<br> и разработка:<a class="db" target='blank' href="https://digital-beans.ru/">
+								<img class="beans" src="img/beans-bl.png" alt="">
+							</a></div>
+						</div>
+						<div class="header-top__contact">
+							<span data-fancybox data-src="#politic" style="margin-top: 0;">Политика конфиденциальности</span>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<div id="popup" style="display: none;">
+				<form action="php/send.php" method="post" class="form">
+					<label for="name-2">
+						<span>Введите Ваше имя:</span>
+						<input type="text" id="name-2" name="name" class="input" placeholder="Введите имя" />
+					</label>
+					<label for="contact-2">
+						<span>Телефон:</span>
+						<input type="text" id="contact-2" name="contact" class="input input-phone" placeholder="+7 (___) ___-__-__" />
+					</label>
+					<input type="hidden" name="type" value="Телефон" />
+ 					<div class="form-middle">
+						<input type="submit" class="btn-red" value="ОТПРАВИТЬ" />
+						<p>Нажимая кнопку, Вы принимаете Положение и<br> Согласие на обработку персональных данных</p>
+					</div>
+				</form>
+			</div>
+
+			<div id="politic" style="display: none;">
+				<h3>Политика конфиденциальности</h3>
+				<p>Данная Политика конфиденциальности определяет порядок сбора, хранения, применения, раскрытия и передачи информации, которую Сеть Фитнес-Клубов (далее - ОРГАНИЗАЦИЯ) получает от пользователей и клиентов ресурса (далее - ПОЛЬЗОВАТЕЛЬ). Представленная Политика конфиденциальности распространяется на все сопутствующие ресурсы, поддомены, продукты, сервисы и услуги ОРГАНИЗАЦИИ.</p>
+				<p>Использование ПОЛЬЗОВАТЕЛЕМ САЙТА означает согласие с настоящей Политикой конфиденциальности и условиями обработки персональных данных ПОЛЬЗОВАТЕЛЯ. В случае несогласия с условиями Политики конфиденциальности ПОЛЬЗОВАТЕЛЬ должен прекратить использование САЙТА.</p>
+				<p>Представленная Политика конфиденциальности касается только настоящего САЙТА и информационные данные, которые добровольно предоставляют ПОЛЬЗОВАТЕЛИ. Ее действие не распространяется на сторонние ресурсы, в том числе, те, на которых упоминается САЙТ или на которых содержатся прямые ссылки на САЙТ. ОРГАНИЗАЦИЯ не проверяет достоверность персональных данных, предоставляемых ПОЛЬЗОВАТЕЛЕМ.</p>
+				<p>Персональная информация ПОЛЬЗОВАТЕЛЕЙ, которую обрабатывает ОРГАНИЗАЦИЯ При посещении САЙТА автоматически определяется Ваш IP адрес, имя домена, страну регистрации IP. Также нами фиксируется факты перехода по страницам САЙТА, прочую информацию, которую Ваш браузер предоставляет открыто и добровольно. Данные сведения помогают существенно упростить пользование САЙТОМ, сделать поиск нужных или интересных для Вас материалов намного быстрее и комфортнее.</p>
+				<p>Мы фиксируем информацию о перемещениях по САЙТУ, просматриваемых страницах в общем, а не персональном порядке. Никакие личные или индивидуальные данные без разрешения пользователей ОРГАНИЗАЦИЯ не будет использована или передана третьим лицам.</p>
+				<p>Любая персональная информация, в том числе идентификационная, предоставляется пользователями САЙТА исключительно добровольно. Все данные, которые Вы оставляете на САЙТЕ собственноручно при регистрации, в ходе оформления карты, заполнения форм (ФИО, адрес электронной почты, контактный телефон, данные кредитной карты, банковских счетов) сохраняются в тайне и не разглашаются. Каждый посетитель САЙТА в праве отказать от предоставления любой персональной информации и посещать ресурс на условиях абсолютной анонимности, кроме случаев, когда данные действия могут помешать корректному пользованию отдельными функциями или возможностями САЙТА.</p>
+				<p>Собранная информация о личных данных посетителей САЙТА может быть применена для следующих целей: связь с ПОЛЬЗОВАТЕЛЕМ, в том числе направление уведомлений, запросов и информации, касающихся использования САЙТА, работы ОРГАНИЗАЦИИ, исполнения договора ОРГАНИЗАЦИИ, а также обработка запросов и заявок от ПОЛЬЗОВАТЕЛЯ;</p>
+				<p>Улучшение качества обслуживания клиентов и пользователей. Предоставляемые Вами данные помогают намного эффективнее реагировать на запросы или обращения посетителей, клиентов;</p>
+				<p>Персонализация пользовательского опыта.</p>
+				<p>Предоставленная информация применяется для оформления карты, контроля поступления оплаты за нее. Любая финансовая или персональная информация о наших ПОЛЬЗОВАТЕЛЯХ не передается третьим лицам и сохраняется в тайне.</p>
+				<p>Меры, применяемые для защиты персональной информации ПОЛЬЗОВАТЕЛЯ</p>
+				<p>ОРГАНИЗАЦИЯ принимает необходимые и достаточные организационные и технические меры для защиты персональной информации ПОЛЬЗОВАТЕЛЯ от неправомерного или случайного доступа, уничтожения, изменения, блокирования, копирования, распространения, а также от иных неправомерных действий с ней третьих лиц.</p>
+				<p>Изменение Политики конфиденциальности. Применимое законодательство</p>
+				<p>ОРГАНИЗАЦИЯ оставляет за собой право менять или корректировать правила и условия Политики конфиденциальности. В случае внесения каких-либо поправок или нововведений в настоящую Политику, указывается дата последнего обновления. Используя данный САЙТ, Вы соглашаетесь с вышеописанными правилами и условиями, а также берете на себя ответственность за периодическое ознакомление с нововведениями и изменениями в Политике конфиденциальности.</p>
+				<p>САЙТ не берет на себя ответственность за действия других сайтов и ресурсов, третьих лиц и сторонних посетителей.</p>
+			</div>
+
+		</div>
+		
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+		<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/jquery.inputmask.bundle.js"></script>
+		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+		<script src="js/common.js"></script>
+			  <script>
+		    $('.form').submit(function (event) {
+		      event.preventDefault();
+		      $.ajax({
+		        type: "POST",
+		        url: "mailer/smart.php",
+		        data: $(this).serialize()
+		      }).done(function () {
+		        $(this).find("input").val("");
+		        $(".form").trigger("reset");
+		         document.location.href = "https://everondental.ru/thanks.html";
+		      });
+		      return false;
+		    });
+		  </script>
+	</body>
+</html>

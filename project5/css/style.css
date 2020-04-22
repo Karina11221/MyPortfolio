@@ -1,0 +1,923 @@
+@font-face {
+	font-family: 'Gotham Pro Black';
+	src: url('../fonts/GothamPro-Black.eot');
+	src: url('../fonts/GothamPro-Black.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/GothamPro-Black.woff') format('woff'),
+	url('../fonts/GothamPro-Black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gotham Pro Medium';
+	src: url('../fonts/GothamPro-Medium.eot');
+	src: url('../fonts/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/GothamPro-Medium.woff') format('woff'),
+	url('../fonts/GothamPro-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Muller ExtraBold';
+	src: url('../fonts/MullerExtraBoldDEMO.eot');
+	src: url('../fonts/MullerExtraBoldDEMO.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/MullerExtraBoldDEMO.woff') format('woff'),
+	url('../fonts/MullerExtraBoldDEMO.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Muller Regular';
+	src: url('../fonts/MullerRegular.eot');
+	src: url('../fonts/MullerRegular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/MullerRegular.woff') format('woff'),
+	url('../fonts/MullerRegular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Muller Bold';
+	src: url('../fonts/MullerBold.eot');
+	src: url('../fonts/MullerBold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/MullerBold.woff') format('woff'),
+	url('../fonts/MullerBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Muller Light';
+	src: url('../fonts/MullerLight.eot');
+	src: url('../fonts/MullerLight.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/MullerLight.woff') format('woff'),
+	url('../fonts/MullerLight.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Muller Medium';
+	src: url('../fonts/MullerMedium.eot');
+	src: url('../fonts/MullerMedium.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/MullerMedium.woff') format('woff'),
+	url('../fonts/MullerMedium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Lifehack';
+	src: url('../fonts/Lifehack Sans W00 Regular.eot');
+	src: url('../fonts/Lifehack Sans W00 Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Lifehack Sans W00 Regular.woff') format('woff'),
+	url('../fonts/Lifehack Sans W00 Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+.top {
+	background: url(../img/top-bg.png) center no-repeat;
+	background-size: 100%;
+	padding-top: 23px;
+	padding-bottom: 19px;
+	text-align: center;
+}
+.top-title {
+	color: #2e3334;
+	font-family: 'Gotham Pro Medium';
+	font-size: 14px;
+
+	line-height: 18.54px;
+	letter-spacing: 0.27px;
+	margin-bottom: 10px;
+}
+.top-subtitle {
+	color: #ffffff;
+	font-family: 'Gotham Pro Medium';
+	font-size: 14px;
+	line-height: 20.86px;
+	text-transform: uppercase;
+	letter-spacing: 0.27px;
+	background: url(../img/bg-text.png) center no-repeat;
+	background-size: 900px;
+	margin-top: -45px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-bottom: 19px;
+}
+.top-contacts {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5px;
+
+}
+.top-contacts__text {
+	color: #000000;
+		font-family: 'Gotham Pro Black';
+	font-size: 15px;
+	line-height: 20.6px;
+	letter-spacing: 0.29px;
+	text-decoration: none;
+	outline: none;
+	margin-left: 17px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	width: 220px;
+	transition: 0.3s;
+}
+.top-contacts__text > span {
+	font-size: 10px;
+}
+.top-contacts > a:hover {
+	opacity: 0.7;
+}
+.present-bg {
+	background: url(../img/present-bg.png) center no-repeat;
+	background-size: 140%;
+	padding-top: 48px;
+	padding-bottom: 58px;
+
+}
+.container {
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.present {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.present-text {
+	text-align: center;
+	background: url(../img/white.png) center no-repeat;
+	/*background-size: 100%;*/
+	padding-top: 41px;
+	padding-bottom: 35px;
+	padding-left: 87px;
+	padding-right: 57px;
+	z-index: 1;
+	position: relative;
+}
+.present-text::before {
+	z-index: 3;
+	position: absolute;
+	content: '';
+	width: 201px;
+	height: 257px;
+	background: url(../img/before.png) center no-repeat;
+	left: -100px;
+	top: 30px;
+	/*border-radius: 10px;*/
+}
+.present-st__text{
+	color: #010101;
+	font-family: "Muller Regular";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-right: 19px;
+}
+.present-st {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.present-text__title {
+	color: #000000;
+	font-family: "Muller Bold";
+	font-size: 24px;
+	/*font-weight: 400;*/
+	/*line-height: 55.12px;*/
+
+}
+.present-text__big {
+	color: #cd3923;
+	font-family: "Lifehack";
+	font-size: 87px;
+	font-weight: 400;
+	/*line-height: 197.79px;*/
+	/* Text style for "В ПОДАРОК" */
+	/*letter-spacing: 0.35px;*/
+}
+.present-text__subtitle {
+	color: #000000;
+	font-family: "Muller ExtraBold";
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.present-text__data {
+	color: #cd3923;
+	font-family: "Muller ExtraBold";
+	font-size: 25px;
+	font-weight: 400;
+
+}
+.present-form___form {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.present-form__input {
+	width: 335px;
+	height: 35px;
+	box-shadow: inset 1px 2px 1px rgba(0, 0, 0, 0.24);
+	border-radius: 18px;
+	background-color: #ffffff;
+	border: none;
+	padding-left: 17px;
+	margin-bottom: 25px;
+	color: #000000;
+	font-family: "Muller Light";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 71.42px;
+	outline: none;
+}
+.present-form__button {
+	width: 174px;
+	/*height: 35px;*/
+	padding-top: 11px;
+	padding-bottom: 11px;
+	border-radius: 18px;
+	border: 4px solid rgba(179, 55, 47, 0.38);
+	background-color: #cd3923;
+	color: #ffffff;
+	font-family: "Muller Medium";
+	font-size: 14px;
+	font-weight: 400;
+	/*line-height: 71.42px;*/
+	text-transform: uppercase;
+	outline: none;
+	text-decoration: none;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.present-form__button:hover {
+	color: #000;
+}
+.us-bg{
+	background: url(../img/FON.png);
+	background-size: 110%;
+	padding-top: 33px;
+	padding-bottom: 101px;
+	text-align: center;
+
+}
+.us-text{
+	color: #000000;
+	font-family: "Muller Bold";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+	border-radius: 28px;
+	background-color: #ffffff;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	/*padding-left: 15px;*/
+	/*padding-right: 15px;*/
+	width: 215px;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	z-index: 5;
+
+}
+.us-text1 {
+	/*top: 30px;*/
+	margin-top: 125px;
+    margin-left: 275px;
+    width: 168px;
+}
+
+
+
+.us-text2 {
+	margin-left: 455px;
+    margin-top: 97px;
+    width: 167px;
+}
+
+.us-text3 {
+	margin-top: 125px;
+	margin-left: 640px;
+	width: 145px;
+}
+
+.us-text4 {
+	width: 215px;
+	margin-top: 270px;
+	margin-left: 710px;
+}
+
+.us-text5{
+	width: 184px;
+	margin-top: 414px;
+	margin-left: 623px;
+}
+
+.us-text6{
+	margin-left: 445px;
+	width: 180px;
+	margin-top: 455px;
+}
+
+.us-text7 {
+	width: 185px;
+	 margin-left: 258px;
+	margin-top: 414px;
+
+}
+
+
+.us-text8 {
+	width: 215px;
+	margin-top: 270px;
+	margin-left: 130px;
+}
+.advantages {
+	background: url(../img/bg-advantages.png) center no-repeat;
+	background-size: 110%;
+	padding-top: 37px;
+	padding-bottom: 130px;
+}
+.advantages-title {
+	text-align: center;
+	color: #000000;
+	font-family: "Muller Bold";
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+.advantages-boxs{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.advantages-box__text {
+	color: #000000;
+	font-family: "Muller Bold";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+	margin-bottom: 20px;
+	position: relative;
+	z-index: 1;
+}
+.advantages-box__text::before {
+	position: absolute;
+	z-index: 4;
+	content: '';
+	background-color: #cd3923;
+	border: 1px solid #cd3923;
+	width: 8px;
+	height: 8px;
+	border-radius: 50px;
+	left: -18px;
+	top: 3px;
+
+}
+.diagram {
+	background: url(../img/FON.png);
+	background-size: 120%;
+	padding-top: 44px;
+	padding-bottom: 53px;
+	text-align: center;
+}
+.form{
+	background: url(../img/form-bg.png) center no-repeat;
+	background-size: 130%;
+	padding-top: 34px;
+	padding-bottom: 50px;
+}
+.form-title {
+	color: #000000;
+	font-family: "Muller Bold";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 44px;
+	text-align: center;
+}
+.none {
+	display: none;
+}
+.form-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.form__button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+.work-title{
+	margin-top: 39px;
+	color: #000000;
+	font-family: "Muller Bold";
+	font-size: 40px;
+	margin-bottom: 42px;
+	text-align: center;
+}
+.work-slider__img {
+	margin-left: 11px;
+	margin-right: 11px;
+	outline: none;
+}
+.work-inst{
+	margin-top: 36px;
+	text-align: center;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	color: #000000;
+	font-family: "Muller Regular";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 16px;
+	/* Text style for "инстаграм" */
+	margin-bottom: 37px;
+	
+}
+.work-inst__a {
+	text-decoration: underline;
+	color: #000000; 
+	outline: none;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 4px;
+}
+.work-inst__img {
+	margin-left: 6px;
+}
+.work-inst__a:hover {
+	opacity: 0.8;
+}
+.black {
+	background-color: #000000;
+	padding-top: 23px;
+	padding-bottom: 18px;
+}
+.black-text {
+	text-align: center;
+	color: #ffffff;
+	font-family: "Muller Bold";
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.material {
+	padding-top: 56px;
+	padding-bottom: 64px;
+	background: url(../img/FON.png);
+	background-size: 100%;
+}
+.material-title {
+	margin-bottom: 47px;
+	color: #000000;
+	font-family: "Muller Bold";
+	font-size: 40px;
+	text-align: center;
+}
+.material-boxs {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.material-box {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.material-box__img {
+	border: 5px solid #fff;
+	border-radius: 100px;
+	margin-right: 15px;
+}
+.material-box__text {
+	color: #000000;
+	font-family: "Muller Regular";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21px;
+}
+.personalization {
+	padding-top: 44px;
+	padding-bottom: 58px;
+}
+.personalization-title {
+	text-align: center;
+	color: #000000;
+	font-family: "Muller Bold";
+	font-size: 40px;
+	margin-bottom: 49px;
+}
+.personalization-boxs {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	/*justify-content: space-between;*/
+	flex-wrap: wrap;
+}
+
+.personalization-box__img{
+	margin-bottom: 20px;
+	width: 203px;
+	height: 203px;
+}
+.personalization-box {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	min-height: 210px;
+	margin-bottom: 43px;
+	margin-right: 17px;
+	max-width: 203px;
+}
+.personalization-box__title{
+	background-color: #000000;
+	padding: 5px;
+	padding-right: 5px;
+	color: #ffffff;
+	font-family: "Muller Bold";
+	font-size: 16px;
+
+}
+.personalization-box__title1 {
+	width: 133px;
+}
+.personalization-box__title2 {
+	width: 185px;
+	margin-top: 2px;
+}
+.personalization-box__text{
+	margin-top: 13px; 
+	color: #000000;
+	font-family: "Muller Regular";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+
+}
+.block {
+	background: url(../img/FON.png) center no-repeat;
+	background-size: 483%;
+	padding-top: 52px;
+	padding-bottom: 57px;
+}
+.block-title {
+	text-align: center;
+	color: #000000;
+	font-family: "Muller Bold";
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+.block-subtitle{
+	color: #000000;
+	font-family: "Muller Bold";
+	font-size: 30px;
+}
+.work2 {
+	padding-bottom: 86px;
+}
+.work-slider__img2 {
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 7px 12px rgba(0, 0, 0, 0.19);
+}
+.work-slider__img3 {
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 7px 12px rgba(0, 0, 0, 0.19);
+
+}
+.block-hr{
+	margin-top: 15px;
+	width: 100%;
+	height: 3px;
+	background-color: #000000;
+	border: none;
+	margin-bottom: 33px;
+}
+.work4 {
+	background: url(../img/FON.png) center no-repeat;
+	background-size: 110%;
+	padding-top: 30px;
+	padding-bottom: 70px;
+}
+
+.opportunities {
+	padding-top: 57px;
+	padding-bottom: 67px;
+}
+.opportunities-titel {
+	margin-bottom: 50px;
+	text-align: center;
+	color: #000000;
+	font-family: "Muller Bold";
+	font-size: 40px;
+}	
+.opportunities-boxs {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.presentation {
+	padding-top: 43px;
+	padding-bottom: 49px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.presentation-box {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+}
+.presentation-text {
+	margin-left: 27px;
+}
+
+.resentation-text__title {
+	color: #010101;
+	font-family: "Muller Bold";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21px;
+	margin-bottom: 7px;
+}
+.presentation-text__a {
+	color: #000000;
+	font-family: "Muller Regular";
+	font-size: 14px;
+	font-weight: 400;
+	/*line-height: 24px;*/
+	text-decoration: underline;
+	outline: none;
+	margin-top: 12px;
+	display: block;
+}
+.presentation-text__a:hover {
+	opacity: 0.8;
+
+}
+.geo-big {
+	width: 100%;
+	height: 440px;
+	filter: grayscale(100%);
+	transition: 1.5s;
+}
+.geo-big:hover {
+	filter: grayscale(0%);
+}
+.geo-box {
+	box-shadow: -1px 15px 46px rgba(0, 0, 0, 0.47);
+	background-color: rgba(225, 225, 225, 50%);
+	padding-top: 30px;
+	padding-bottom: 40px;
+	padding-left: 42px;
+	padding-right: 70px;
+	position: absolute;
+	z-index: 100;
+	left: 335px;
+}
+.geo-box__title {
+	color: #000000;
+	font-family: "Muller Bold";
+	font-size: 30px;
+	margin-bottom: 33px;
+}
+.geo-box__geo {
+	color: #000000;
+	font-family: "Muller Bold";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20.6px;
+	letter-spacing: 0.31px;
+	margin-bottom: 32px;
+}
+.geo-box__a {
+	color: #000000;
+	font-family: "Muller Bold";
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 7px;
+	outline: none;
+	text-decoration: none;
+	display: block;
+}
+.geo-box__a:hover {
+	opacity: 0.8;
+}
+.geo-box__time {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	color: #000000;
+	font-family: "Muller Bold";
+	font-size: 16px;
+	font-weight: 400;
+}
+.geo-box__time > span {
+	font-size: 10px;
+}
+.geo-box__soc {
+	margin-top: 33px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.geo-box__soc-img {
+	margin-right: 7px;
+}
+.basement {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 31px;
+	padding-bottom: 31px;
+}
+.basement-left {
+	color: #0f0f0f;
+	font-family: "Muller Medium";
+	font-size: 18px;
+	font-weight: 400;
+}
+.basement-right {
+	color: #0f0f0f;
+	font-family: "Muller Medium";
+	font-size: 18px;
+	text-decoration: underline;
+}
+.menu-bg {
+	box-shadow: 0 7px 18px rgba(0, 0, 0, 0.41);
+	background-color: #000000;
+	padding-top: 24px;
+	padding-bottom: 23px;
+	width: 100%;
+
+}
+/*.sticky {
+  position: fixed;
+  top: 100px;   если ноль заменить на число (и в скрипте тоже), то блок будет прилипать до того, как верхний край окна браузера дойдёт до верхнего края элемента. Может быть отрицательным числом. Применим, например, при фиксированном сверху меню 
+  z-index: 101;
+}*/
+.menu {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu-punkt {
+	color: #ffffff;
+	font-family: "Muller Regular";
+	font-size: 12px;
+	text-transform: uppercase;
+	text-decoration: none;
+	outline: none;
+}
+.menu-punkt:hover {
+	opacity: 0.8;
+}
+
+
+
+.box {
+	padding: 15px;
+	background-color: #fff;
+	border-radius: 10px;
+	text-align: center;
+	width: 500px;
+	margin-top: 22px;
+}
+.box-promo {
+	color: red;
+	font-size: 30px;
+}
+.box-title {
+	margin-top: 10px;
+	font-size: 25px;
+}
+.box-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.box-flex__img {
+	width: 300px;
+}
+.box-flex__text {
+	
+}
+.box-flex__text-top {
+	font-size: 16px;
+	margin-bottom: 25px;
+}
+.box-flex__text-bottom {
+	font-size: 20px;
+	color: red;
+	text-decoration: line-through;
+}
